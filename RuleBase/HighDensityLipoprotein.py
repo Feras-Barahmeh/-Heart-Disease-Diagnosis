@@ -8,7 +8,7 @@ class HighDensityLipoprotein(IRuleBase):
         self.hdlLow     = None
         self.hdlMid     = None
         self.hdlHigh    = None
-        self.hdlFitLow = self.hdlFitMid = self.hdlFitHigh = None
+        self.hdlFitLow  = self.hdlFitMid = self.hdlFitHigh = None
         self.figure, self.HDL = plt.subplots(nrows=1)
 
     def triangularMembership(self):
@@ -26,6 +26,6 @@ class HighDensityLipoprotein(IRuleBase):
         plt.show()
 
     def membershipDegrees(self, userHighDensityLipoprotein):
-        self.hdlFitLow = fuzz.interp_membership(highDensityLipoprotein, self.hdlLow, userHighDensityLipoprotein)
-        self.hdlFitMid = fuzz.interp_membership(highDensityLipoprotein, self.hdlMid, userHighDensityLipoprotein)
+        self.hdlFitLow  = fuzz.interp_membership(highDensityLipoprotein, self.hdlLow, userHighDensityLipoprotein)
+        self.hdlFitMid  = fuzz.interp_membership(highDensityLipoprotein, self.hdlMid, userHighDensityLipoprotein)
         self.hdlFitHigh = fuzz.interp_membership(highDensityLipoprotein, self.hdlHigh, userHighDensityLipoprotein)
