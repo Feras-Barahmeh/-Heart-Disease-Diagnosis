@@ -33,3 +33,23 @@ The risk of heart disease is calculated by applying the necessary procedures to 
 
 ### Represent crisp and sense something _As Figure_
  [<img src="Images/crisb.png" width=100% height=50%/>](output)
+ 
+
+# References
+ * Matplotlib Python
+   - https://matplotlib.org/
+ * Numpy Python
+   - https://numpy.org/
+ * Skfuzzy Python
+   - https://pythonhosted.org/scikit-fuzzy/
+ * Fuzzy inference systems
+   - https://www.cs.princeton.edu/courses/archive/fall07/cos436/HIDDEN/Knapp/fuzzy004.htm
+ 
+# Good Videos Youtube
+
+   1) 
+      https://youtu.be/moQak7BXsI8
+    
+   2) Parts
+      1) https://youtu.be/MQrDmU6Sn4s (part 1)
+      2) https://youtu.be/MQrDmU6Sn4s (part 2)
