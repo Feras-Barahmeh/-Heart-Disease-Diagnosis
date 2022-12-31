@@ -11,12 +11,9 @@ The risk of heart disease is calculated by applying the necessary procedures to 
 
 ### Inputs
 
-<img src="Images/age.png" width=49% height=50%/>
-<img src="Images/blood-pressure.png" width=49% height=10%/>
-<img src="Images/cholestrol.png" width=49% height=10%/>
-<img src="Images/blood-sugar.png" width=49% height=10%/>
-<img src="Images/LDL.png" width=49% height=10%/>
-<img src="Images/HDL.png" width=49% height=10%/>
+<img src="Images/age.png" width=49% height=50%/> <img src="Images/blood-pressure.png" width=49% height=10%/>
+<img src="Images/cholestrol.png" width=49% height=10%/> <img src="Images/blood-sugar.png" width=49% height=10%/>
+<img src="Images/LDL.png" width=49% height=10%/> <img src="Images/HDL.png" width=49% height=10%/>
 
 ### Risk 
 [<img src="Images/risk.png" width=50% height=50%/>](Risk)
