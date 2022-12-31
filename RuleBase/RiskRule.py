@@ -1,7 +1,7 @@
 from RuleBase.IRuleBase import *
 from Configurations import *
 
-class Risk(IRuleBase):
+class RiskRule(IRuleBase):
     def __init__(self):
         super().__init__()
         self.riskNot        = None

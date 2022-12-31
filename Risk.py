@@ -2,7 +2,7 @@ from RuleBase import *
 from types import SimpleNamespace
 from Configurations import *
 
-class Rules:
+class Risk:
     def __init__(self, **rules):
         # print(rules.keys())
         self.rules = SimpleNamespace(**rules)

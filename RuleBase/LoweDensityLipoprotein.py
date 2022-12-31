@@ -20,7 +20,7 @@ class LoweDensityLipoprotein(IRuleBase) :
         self.LDL.plot(loweDensityLipoprotein, self.ldlNormal, 'r', linewidth=2, label="LDL Normal")
         self.LDL.plot(loweDensityLipoprotein, self.ldlLimit, 'g', linewidth=2, label="LDL Limit")
         self.LDL.plot(loweDensityLipoprotein, self.ldlHigh, 'b', linewidth=2, label="LDL High")
-        self.LDL.plot(loweDensityLipoprotein, self.ldlVeryHigh, 'b', linewidth=2, label="LDL Very high")
+        self.LDL.plot(loweDensityLipoprotein, self.ldlVeryHigh, 'orange', linewidth=2, label="LDL Very high")
         self.LDL.set_title("Lowe Density Lipoprotein")
         self.LDL.legend()
         plt.xlabel("Density Lipoprotein")

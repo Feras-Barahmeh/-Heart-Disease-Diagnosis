@@ -21,7 +21,7 @@ class BloodPressure(IRuleBase):
         self.bloodPressure.plot(bloodPressure, self.bloodPressureLow, 'r', linewidth=2, label='Blood Pressure Low')
         self.bloodPressure.plot(bloodPressure, self.bloodPressureMid, 'g', linewidth=2, label='Blood Pressure Mid')
         self.bloodPressure.plot(bloodPressure, self.bloodPressureHigh, 'b', linewidth=2, label='Blood Pressure High')
-        self.bloodPressure.plot(bloodPressure, self.bloodPressureVeryHigh, 'b', linewidth=2, label='Blood Pressure Very High')
+        self.bloodPressure.plot(bloodPressure, self.bloodPressureVeryHigh, 'orange', linewidth=2, label='Blood Pressure Very High')
         self.bloodPressure.set_title("Blood Pressure")
         self.bloodPressure.legend()
         plt.xlabel("Blood Pressure")
