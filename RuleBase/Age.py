@@ -10,9 +10,9 @@ class Age(IRuleBase):
         self.figure, self.ruleAge = plt.subplots(nrows=1)
 
     def trapezoidalMembership(self):
-        self.ageYoung = mf.trapmf(age, [-30, -5, 30, 40])
-        self.ageMid = mf.trapmf(age, [30, 40, 50, 60])
-        self.ageOld = mf.trapmf(age, [50, 60, 100, 100])
+        self.ageYoung   = mf.trapmf(age, [-30, -5, 30, 40])
+        self.ageMid     = mf.trapmf(age, [30, 40, 50, 60])
+        self.ageOld     = mf.trapmf(age, [50, 60, 100, 100])
 
     def draw(self):
         self.ruleAge.plot(age, self.ageYoung, 'r', linewidth=2, label='Young')
